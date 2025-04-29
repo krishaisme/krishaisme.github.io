@@ -1,6 +1,6 @@
 <html> 
-    <head>
-<title>Under Maintainence</title>
+<head>
+    <title>Under Maintainence</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -10,13 +10,43 @@
                 <img src="images/logo.png" class="logo">
                     <ul>
                       <li><a href="#">Home</a></li> 
-                      <li><a href="#">About</a></li>
+                      <li><a href="#about">About</a></li>
                       <li><a href="#">Services</a></li> 
                       <li><a href="#">Portfolio</a></li>
                       <li><a href="#">contact</a></li>
                     </ul>
             </nav>
         </div>
+    </div>
+    <!-- ---------about---------->
+    <div id="about">
+    <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/image.png">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam,
+                 distinctio officia ratione rerum cupiditate ex sequi nam doloribus esse repudiandae.</p>
+
+            <div class="tab-titles">
+                <p class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+    
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+            </div>
+            <div class=".tab-contents active-tab">
+                <ul>
+                    <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Web Development</span><br> Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/ioS apps</li>
+                </ul>
+            </div>                       
+        </div>
+    </div>
+    </div>
     </div>
 </body>
 </html>
