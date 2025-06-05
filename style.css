@@ -167,7 +167,7 @@ h1 {
 }
 
 /* Responsive styles */
-@media (max-width: 1300px ) {
+@media (max-width: 15360px ) {
     .profile-pic  {
         margin-left: 45em;
         
